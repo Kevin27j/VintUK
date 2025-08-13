@@ -2,9 +2,6 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- Google font icons -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu,shopping_bag" />
@@ -18,56 +15,98 @@
         }
     </style>
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="styles.css">
     <title>VintUK</title>
 </head>
 
-<!-- HEADER -->
 
 <body>
-    <header class="header">
+    <!-- HEADER -->
+    <header class="header flex">
+        <!-- LOGO -->
         <h1 class="brand-title">Vintage Unik</h1>
 
         <!-- MENU LINKS -->
-        <nav>
-            <div class="menu-toggle">
+        <div class="menu-nav flex">
+
+            <nav>
+                <div class="menu-toggle">
+                    <span class="material-symbols-outlined">
+                        menu
+                    </span>
+                </div>
+                <ul class="menu-links hide">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- BASKET ICON -->
+            <div class="basket">
                 <span class="material-symbols-outlined">
-                    menu
+                    shopping_bag
                 </span>
+                <span class="basket-count">0</span>
             </div>
-            <ul class="menu-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">Shop</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        </div>
 
-        <!-- HOME:index.html -->
-
-
-        <!-- BASKET ICON -->
-        <div class="basket">
-            <span class="material-symbols-outlined">
-                shopping_bag
-            </span>
-            <span class="basket-count">0</span>
     </header>
 
-    <main>
+    <!-- MAIN -->
+    <main class="home">
+        <!-- HERO SECTION -->
+        <section class="hero-image flex">
+            <div class="hero-content">
+                <h2 class="hero-title">Discover Unique Vintage Bags</h2>
+            </div>
+        </section>
+        <!-- MAIN SECTION: HOME -->
+        <section class="home-section">
 
+            <div class="home-content">
+                <h2>Welcome to Vintage Unik</h2>
+                <p>Your destination for unique vintage bags.</p>
+                <a href="#shop" class="btn">Shop Now</a>
+            </div>
+
+            <div class="featured-products">
+                <h3>Featured Products</h3>
+                <div class="product-list">
+                    <div class="product-item">
+                        <img src="images/bag1.jpg" alt="Vintage Bag 1">
+                        <h4>Vintage Bag 1</h4>
+                        <p>$50.00</p>
+                    </div>
+                    <div class="product-item">
+                        <img src="images/bag2.jpg" alt="Vintage Bag 2">
+                        <h4>Vintage Bag 2</h4>
+                        <p>$60.00</p>
+                    </div>
+                    <div class="product-item">
+                        <img src="images/bag3.jpg" alt="Vintage Bag 3">
+                        <h4>Vintage Bag 3</h4>
+                        <p>$70.00</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
 
 
     <!-- FOOTER -->
-    <footer>
-        <p>&copy; 2023 VintUK. All rights reserved.</p>
+    <footer class="footer">
+        <p>&copy; 2025 Vintage Unik. All rights reserved.</p>
         <p>Follow us on:
-            <a href="https://twitter.com/vintuk">Twitter</a>,
-            <a href="https://facebook.com/vintuk">Facebook</a>,
-            <a href="https://instagram.com/vintuk">Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=61578302798191">Facebook</a>,
+            <a href="https://www.instagram.com/vint.unik/">Instagram</a>
         </p>
-        <p>Contact us at: <a href="mailto:info@vintuk.com">
+        <p>Contact us at: <a href="mailto:vintageunik.uk@gmail.com">vintageunik.uk@gmail.com</a>
     </footer>
 </body>
 
