@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     min-height: 100%;
 }
 
@@ -23,7 +24,6 @@ ul {
 }
 
 a {
-    text-decoration: none;
     color: #333;
 }
 
@@ -63,7 +63,9 @@ a {
 
 /* MAIN SECTION:HOME */
 .home {
-    height: 1500px; /* Adjust height as needed */
+    height: 1500px;
+    /* Adjust height as needed */
+
 }
 
 .hero-image {
@@ -85,6 +87,44 @@ a {
     font-size: 2.5rem;
     text-align: center;
     margin: 0;
+}
+
+.home-section {
+    padding: 50px 20px;
+    text-align: center;
+    gap: 50px;
+}
+
+.home-content {
+    gap: 5px;
+}
+
+.featured-products {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.product-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: auto;
+    margin: 0 auto;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.product-content {
+    padding: 10px 0;
+    gap: 10px;
 }
 
 /* FOOTER */
