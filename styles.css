@@ -27,20 +27,16 @@ a {
     color: #333;
 }
 
+button {
+    cursor: pointer;
+    border: none;
+}
+
 .flex {
     display: flex;
     flex-direction: column;
-    /* align-items: center;
-    justify-content: center; */
 }
 
-.show {
-    display: block;
-}
-
-.hide {
-    display: none;
-}
 
 /* HEADER SECTION */
 
@@ -56,16 +52,28 @@ a {
     gap: 5px;
 }
 
-.menu-toggle {
+.menu-button {
     display: flex;
     flex-direction: column;
+    background: none;
+}
+
+.menu-list {
+    position: absolute;
+    top: 60px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+
+.menu-item {
+    margin: 7px 0;
 }
 
 /* MAIN SECTION:HOME */
 .home {
     height: 1500px;
     /* Adjust height as needed */
-
 }
 
 .hero-image {

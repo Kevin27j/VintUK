@@ -29,32 +29,41 @@
         <!-- LOGO -->
         <h1 class="brand-title">Vintage Unik</h1>
 
-        <!-- MENU LINKS -->
+        <!-- MENU SECTION -->
         <div class="menu-nav flex">
 
-            <nav>
-                <div class="menu-toggle">
-                    <a href="#" class="menu-icon">
-                        <span class="material-symbols-outlined">
-                            menu
-                        </span>
-                    </a>
-                </div>
-                <ul class="menu-links hide">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">Shop</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+            <nav role="navigation">
+
+                <button class="menu-button" aria-label="Toggle Menu" aria-expanded="false" aria-controls="menu-list">
+                    <span class="material-symbols-outlined">
+                        menu
+                    </span>
+                </button>
+
+                <ul class="menu-list" hidden>
+                    <li class="menu-item">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#shop">Shop</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#contact">Contact</a>
+                    </li>
                 </ul>
             </nav>
 
             <!-- BASKET ICON -->
-            <div class="basket">
+            <button class="basket-button" 
+            aria-label="View Basket">
                 <span class="material-symbols-outlined">
                     shopping_bag
                 </span>
                 <span class="basket-count">0</span>
-            </div>
+            </button>
         </div>
 
     </header>
@@ -127,6 +136,8 @@
         </p>
         <p>Contact us at: <a href="mailto:vintageunik.uk@gmail.com">vintageunik.uk@gmail.com</a>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
