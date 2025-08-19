@@ -17,9 +17,9 @@ body {
 
 /* FONTS */
 .prata-regular {
-  font-family: "Prata", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* <weight>: Use a value from 400 to 700 */
@@ -27,10 +27,10 @@ body {
 /* .lora-<uniquifier> */
 
 .lora-font {
-  font-family: "Lora", serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 /* GENERAL RULES */
@@ -90,7 +90,7 @@ button {
 
 /* MAIN SECTION:HOME */
 .main {
-    height: 1500px;
+    height: auto;
     /* Adjust height as needed */
 }
 
@@ -122,21 +122,16 @@ button {
 
 .home-content,
 .shop-content,
-.about-content {
+.about-content,
+.contact-content {
     gap: 10px;
 }
 
-.featured-products {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    text-align: center;
-}
-
+.featured-products,
 .product-list {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
     text-align: center;
 }
 
@@ -172,18 +167,20 @@ button {
 
 /* MAIN SECTION:SHOP */
 
-.products-filter {
+.products-filter,
+.pagination {
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+
+}
+
+.products-filter {
+    justify-content: space-between;
     padding: 20px;
 }
 
-
 .pagination {
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
     gap: 10px;
     margin-top: 20px;
 }

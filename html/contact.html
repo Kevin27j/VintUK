@@ -77,53 +77,27 @@
     </header>
 
     <!-- MAIN -->
-    <main class="main" id="shop">
+    <main class="main" id="contact">
 
-        <!-- MAIN SECTION: SHOP -->
+        <!-- MAIN SECTION: CONTACT -->
         <section class="home-section flex">
 
-            <div class="shop-content flex">
-                <h2 class="section-title">Shop</h2>
-                <p class="section-description">Explore our collection of unique vintage bags.</p>
-            </div>
+            <div class="contact-content flex">
+                <h2 class="contact-title lora-font">Get in Touch</h2>
+                <p class="contact-text">We'd love to hear from you! Whether you have a question about our products, need assistance with your order, or just want to say hello, feel free to reach out.</p>
 
-            <div class="products-filter flex">
-                <!-- Sort products -->
-                <div class="filter-options flex">
-                    <label for="sort-by">Sort by:</label>
-                    <select id="sort-by" name="sort-by">
-                        <option value="default">Default</option>
-                        <option value="price-low-to-high">Price: Low to High</option>
-                        <option value="price-high-to-low">Price: High to Low</option>
-                        <option value="newest">Newest</option>
-                    </select>
-                </div>
+                <form action="#" method="post" class="contact-form flex">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
 
-                <!-- Total number of products -->
-                <div class="total-products">
-                    <p><span class="product-count">0</span> items</p>
-                </div>
-            </div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
 
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
 
-            <div class="product-list flex">
-                <!-- Example product item -->
-                <div class="product-item">
-                    <img src="https://placehold.co/250x150" alt="Vintage Bag 1">
-                    <div class="product-content flex">
-                        <h4>Vintage Bag 1</h4>
-                        <p>£50.00</p>
-                        <a href="#" class="featured-link">Add to Cart</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Current Page -->
-            <div class="pagination flex">
-                <button class="prev-page" aria-label="Previous Page">Previous</button>
-                <span class="current-page">1</span>
-                <button class="next-page" aria-label="Next Page">Next</button>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
             </div>
 
         </section>
