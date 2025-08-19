@@ -120,7 +120,9 @@ button {
     gap: 40px;
 }
 
-.home-content {
+.home-content,
+.shop-content,
+.about-content {
     gap: 10px;
 }
 
@@ -169,10 +171,6 @@ button {
 }
 
 /* MAIN SECTION:SHOP */
-
-.shop-content {
-    gap: 10px;
-}
 
 .products-filter {
     flex-direction: row;
