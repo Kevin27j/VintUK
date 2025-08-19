@@ -48,6 +48,7 @@ a {
 button {
     cursor: pointer;
     border: none;
+    background: none;
 }
 
 .flex {
@@ -73,7 +74,6 @@ button {
 .menu-button {
     display: flex;
     flex-direction: column;
-    background: none;
 }
 
 .menu-list {
@@ -89,7 +89,7 @@ button {
 }
 
 /* MAIN SECTION:HOME */
-.home {
+.main {
     height: 1500px;
     /* Adjust height as needed */
 }
@@ -167,3 +167,6 @@ button {
     color: #fff;
     text-decoration: underline;
 }
+
+/* MAIN SECTION:SHOP */
+
