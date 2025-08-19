@@ -15,6 +15,15 @@
         }
     </style>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Prata&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for basket icon -->
+    <script src="https://kit.fontawesome.com/e7ffdf979d.js" crossorigin="anonymous"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -23,7 +32,7 @@
 </head>
 
 
-<body>
+<body class="prata-regular">
     <!-- HEADER -->
     <header class="header flex">
         <!-- LOGO -->
@@ -57,8 +66,7 @@
             </nav>
 
             <!-- BASKET ICON -->
-            <button class="basket-button" 
-            aria-label="View Basket">
+            <button class="basket-button" aria-label="View Basket">
                 <span class="material-symbols-outlined">
                     shopping_bag
                 </span>
@@ -74,7 +82,7 @@
         <!-- HERO SECTION -->
         <section class="hero-image flex">
             <div class="hero-content">
-                <h2 class="hero-title">Discover Unique Vintage Bags</h2>
+                <h2 class="hero-title lora-font">Discover Unique Vintage Bags</h2>
             </div>
         </section>
 
@@ -85,7 +93,7 @@
             <div class="home-content flex">
                 <h2>Welcome to Vintage Unik</h2>
                 <p>Explore our exclusive collection of vintage bags that add a unique touch to your style.</p>
-                <a href="#shop" class="btn">Shop Now</a>
+                <a href="#shop" class="shop-link">Shop Now</a>
             </div>
 
             <!-- Featured products -->
@@ -98,7 +106,7 @@
                         <div class="product-content flex">
                             <h4>Vintage Bag 1</h4>
                             <p>£50.00</p>
-                            <a href="#" class="btn">Add to Cart</a>
+                            <a href="#" class="featured-link">Add to Cart</a>
                         </div>
                     </div>
 
@@ -107,7 +115,7 @@
                         <div class="product-content flex">
                             <h4>Vintage Bag 2</h4>
                             <p>£100.00</p>
-                            <a href="#" class="btn">Add to Cart</a>
+                            <a href="#" class="featured-link">Add to Cart</a>
                         </div>
                     </div>
 
@@ -116,7 +124,7 @@
                         <div class="product-content flex">
                             <h4>Vintage Bag 3</h4>
                             <p>£150.00</p>
-                            <a href="#" class="btn">Add to Cart</a>
+                            <a href="#" class="featured-link">Add to Cart</a>
                         </div>
                     </div>
 
@@ -130,11 +138,13 @@
     <!-- FOOTER -->
     <footer class="footer">
         <p>&copy; 2025 Vintage Unik. All rights reserved.</p>
-        <p>Follow us on:
-            <a href="https://www.facebook.com/profile.php?id=61578302798191">Facebook</a>,
-            <a href="https://www.instagram.com/vint.unik/">Instagram</a>
-        </p>
-        <p>Contact us at: <a href="mailto:vintageunik.uk@gmail.com">vintageunik.uk@gmail.com</a>
+        <div>
+
+            <a href="https://www.facebook.com/profile.php?id=61578302798191"><i class="fa-brands fa-facebook-f"></i></a>
+
+            <a href="https://www.instagram.com/vint.unik/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p>Connect at: <a href="mailto:vintageunik.uk@gmail.com">vintageunik.uk@gmail.com</a>
     </footer>
 
     <script src="script.js"></script>
