@@ -10,5 +10,14 @@ menuButton.addEventListener("click", () => {
     else {
         menuButton.setAttribute('aria-expanded', 'false');
         menuList.setAttribute("hidden", "");
+
+    }
+})
+
+// Close the menu when clicking outside
+document.addEventListener("click", (event) => {
+    if (!menuButton.contains(event.target) && !menuList.contains(event.target)) {
+        menuButton.setAttribute('aria-expanded', 'false');
+        menuList.setAttribute("hidden", "");
     }
 })
