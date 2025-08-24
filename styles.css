@@ -67,6 +67,7 @@ button {
 
 .menu-nav {
     flex-direction: row;
+    align-items: center;
     gap: 5px;
 }
 
@@ -88,9 +89,16 @@ button {
     margin: 7px 0;
 }
 
+.basket-button {
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
 /* MAIN SECTION:HOME */
 .main {
-    height: 1000px; /* set to auto when finish */
+    height: auto; /* set to auto when finish */
     /* Adjust height as needed */
 }
 
@@ -223,4 +231,40 @@ button {
     padding: 10px 15px;
     border-radius: 4px;
     transition: background-color 0.3s ease;
+}
+
+/* MEDIA QUERIES FOR TABLET SCREEN SIZE */
+@media (min-width: 600px) {
+
+    /* HEADER */
+    .menu-nav {
+        gap: 30px;
+    }   
+
+    .menu-button {
+        display: none;
+    }
+
+    .menu-list {
+        display: flex;
+        position: static;
+        box-shadow: none;
+        background-color: inherit;
+        flex-direction: row;
+        gap: 15px;  
+    }
+
+    /* BODY */
+    .hero-title {
+        font-size: 3.5rem;
+    }
+
+    .home-section {
+        padding: 70px 40px;
+    }
+
+    .product-list {
+        flex-direction: row;
+    }
+
 }

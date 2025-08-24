@@ -21,3 +21,20 @@ document.addEventListener("click", (event) => {
         menuList.setAttribute("hidden", "");
     }
 })
+
+
+// MEDIA QUERY REMOVE MENU BUTTON AND SHOW MENU LIST FOR TABLET/DESKTOP
+// const mediaQuery = window.matchMedia('(min-width: 768px)');
+
+// function handleChange(e) {
+//     if (e.matches) {
+//         menuButton.setAttribute("hidden", "");
+//         menuButton.setAttribute('aria-expanded', 'false');
+//         menuList.removeAttribute("hidden");
+//     } else {
+//         menuButton.removeAttribute("hidden");
+//         menuList.setAttribute("hidden", "");
+//     }
+// }
+// mediaQuery.addEventListener('change', handleChange);
+// handleChange(mediaQuery);
