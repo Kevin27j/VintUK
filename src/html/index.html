@@ -27,8 +27,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../styles.css">
-    <title>VintUK</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Second Season</title>
 </head>
 
 
@@ -51,7 +51,7 @@
 
                 <ul class="menu-list" hidden>
                     <li class="menu-item">
-                        <a href="../index.html">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li class="menu-item">
                         <a href="shop.html">Shop</a>
@@ -66,7 +66,7 @@
             </nav>
 
             <!-- BASKET ICON -->
-            <button class="basket-button" aria-label="View Basket">
+            <button class="basket-button flex" aria-label="View Basket">
                 <span class="material-symbols-outlined">
                     shopping_bag
                 </span>
@@ -77,28 +77,58 @@
     </header>
 
     <!-- MAIN -->
-    <main class="main" id="about">
+    <main class="main" id="home">
 
-        <!-- MAIN SECTION: ABOUT -->
+        <!-- HERO SECTION -->
+        <section class="hero-image flex">
+            <div class="hero-content">
+                <h2 class="hero-title lora-font">Discover Unique Style</h2>
+            </div>
+        </section>
+
+        <!-- MAIN SECTION: HOME -->
         <section class="home-section flex">
 
-            <div class="about-content flex">
-                <h2 class="section-title">About Us</h2>
-                <p class="section-description">We curate a collection of luxury designer pieces that tell a story and
-                    add character to your style. Our mission is to provide you with high-quality, sustainable fashion
-                    choices that stand out.
-                </p>
-
-                <h3 class="section-subtitle">Our Commitment</h3>
-                <p class="section-description">
-                    All our products are 100% authentic. 
-                    We can also provide with digital certificates of authenticity for each bag.
-                    Our team is dedicated to ensuring that every piece meets our high standards of quality and style.
-                </p>
+            <!-- home -->
+            <div class="home-content flex">
+                <h2 class="section-title">Welcome to Second Season</h2>
+                <p class="section-description">Explore our exclusive collection of vintage bags.</p>
+                <a href="shop.html" class="shop-link">Shop All</a>
             </div>
 
-            <div class="about-image">
-                <img src="../assets/images/about_image.jpeg" class="about-image" alt="About Image">
+            <!-- Featured products -->
+            <div class="featured-products flex">
+                <h3>Featured Products</h3>
+                <div class="product-list flex">
+
+                    <div class="product-item">
+                        <img src="https://placehold.co/250x150" alt="Vintage Bag 1">
+                        <div class="product-content flex">
+                            <h4>Vintage Bag 1</h4>
+                            <p>£50.00</p>
+                            <a href="#" class="featured-link">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <img src="https://placehold.co/250x150" alt="Vintage Bag 2">
+                        <div class="product-content flex">
+                            <h4>Vintage Bag 2</h4>
+                            <p>£100.00</p>
+                            <a href="#" class="featured-link">Add to Cart</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <img src="https://placehold.co/250x150" alt="Vintage Bag 3">
+                        <div class="product-content flex">
+                            <h4>Vintage Bag 3</h4>
+                            <p>£150.00</p>
+                            <a href="#" class="featured-link">Add to Cart</a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
         </section>
@@ -117,7 +147,7 @@
         <p>Connect at: <a href="mailto:vintageunik.uk@gmail.com">email@gmail.com</a>
     </footer>
 
-    <script src="../script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>

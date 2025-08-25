@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "name": "Louis Vuitton Drouot",
+        "description": " A classic Louis Vuitton Drouot bag, perfect for everyday use.",
+        "price": 120.00,  
+        "image": "images/leather_tote_bag.jpg"
+    }
+]

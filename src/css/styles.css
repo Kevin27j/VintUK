@@ -98,12 +98,13 @@ button {
 
 /* MAIN SECTION:HOME */
 .main {
-    height: auto; /* set to auto when finish */
+    height: auto;
+    /* set to auto when finish */
     /* Adjust height as needed */
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/hero_background.webp");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../public/assets/hero_background.webp");
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -216,8 +217,8 @@ button {
     gap: 10px;
 }
 
-.contact-form > input,
-.contact-form > textarea {
+.contact-form>input,
+.contact-form>textarea {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -239,7 +240,7 @@ button {
     /* HEADER */
     .menu-nav {
         gap: 30px;
-    }   
+    }
 
     .menu-button {
         display: none;
@@ -251,7 +252,7 @@ button {
         box-shadow: none;
         background-color: inherit;
         flex-direction: row;
-        gap: 15px;  
+        gap: 15px;
     }
 
     /* BODY */
@@ -261,6 +262,20 @@ button {
 
     .home-section {
         padding: 70px 40px;
+    }
+
+    .home-content,
+    .shop-content,
+    .about-content,
+    .contact-content {
+        margin: 0 auto;
+        max-width: 600px;
+    }
+
+    .about-image {
+        max-width: 80%;
+        margin: 0 auto;
+        text-align: center;
     }
 
     .product-list {
