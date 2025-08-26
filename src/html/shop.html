@@ -51,7 +51,7 @@
 
                 <ul class="menu-list" hidden>
                     <li class="menu-item">
-                        <a href="../index.html">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li class="menu-item">
                         <a href="shop.html">Shop</a>
@@ -87,9 +87,10 @@
                 <p class="section-description">Explore our collection of unique vintage bags.</p>
             </div>
 
+            <!-- shop filters -->
             <div class="products-filter flex">
                 <!-- Sort products -->
-                <div class="filter-options flex">
+                <div class="sort-products flex">
                     <label for="sort-by">Sort by:</label>
                     <select id="sort-by" name="sort-by">
                         <option value="default">Default</option>
@@ -100,7 +101,7 @@
                 </div>
 
                 <!-- Total number of products -->
-                <div class="total-products">
+                <div class="total-products-count">
                     <p><span class="product-count">0</span> items</p>
                 </div>
             </div>
@@ -111,8 +112,8 @@
                 <div class="product-item">
                     <img src="https://placehold.co/250x150" alt="Vintage Bag 1">
                     <div class="product-content flex">
-                        <h4>Vintage Bag 1</h4>
-                        <p>£50.00</p>
+                        <h4 class="product-name">Vintage Bag 1</h4>
+                        <p class="product-price">£50.00</p>
                         <a href="#" class="featured-link">Add to Cart</a>
                     </div>
                 </div>
