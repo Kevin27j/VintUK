@@ -33,7 +33,9 @@ fetch('../../bags.json')
             const bagElement = document.createElement('div');
             bagElement.classList.add('product-item');
             bagElement.innerHTML = `
-                <img src=${bag.image} alt="${bag.name}" width="200" height="200">
+            <div class="product-image">
+                <img src=${bag.image} alt="${bag.name}" width="250">
+                </div>
                 <div class="product-content flex">
                     <h4>${bag.name}</h4>
                     <p>£${bag.price}</p>

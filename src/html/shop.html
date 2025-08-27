@@ -87,44 +87,38 @@
                 <p class="section-description">Explore our collection of unique vintage bags.</p>
             </div>
 
-            <!-- shop filters -->
-            <div class="products-filter flex">
-                <!-- Sort products -->
-                <div class="sort-products flex">
-                    <label for="sort-by">Sort by:</label>
-                    <select id="sort-by" name="sort-by">
-                        <option value="default">Default</option>
-                        <option value="price-low-to-high">Price: Low to High</option>
-                        <option value="price-high-to-low">Price: High to Low</option>
-                        <option value="newest">Newest</option>
-                    </select>
-                </div>
+            <!-- Shop products -->
+            <div class="shop-products flex">
 
-                <!-- Total number of products -->
-                <div class="total-products-count">
-                    <p><span class="product-count">0</span> items</p>
-                </div>
-            </div>
-
-
-            <div class="product-list flex">
-                <!-- Example product item -->
-                <!-- <div class="product-item">
-                    <img src="https://placehold.co/250x150" alt="Vintage Bag 1">
-                    <div class="product-content flex">
-                        <h4 class="product-name">Vintage Bag 1</h4>
-                        <p class="product-price">£50.00</p>
-                        <a href="#" class="featured-link">Add to Cart</a>
+                <!-- shop filters -->
+                <div class="products-filter flex">
+                    <!-- Sort products -->
+                    <div class="sort-products flex">
+                        <label for="sort-by">Sort by:</label>
+                        <select id="sort-by" name="sort-by">
+                            <option value="default">Default</option>
+                            <option value="price-low-to-high">Price: Low to High</option>
+                            <option value="price-high-to-low">Price: High to Low</option>
+                            <option value="newest">Newest</option>
+                        </select>
                     </div>
-                </div> -->
 
-            </div>
+                    <!-- Total number of products -->
+                    <div class="total-products-count">
+                        <p><span class="product-count">0</span> items</p>
+                    </div>
+                </div>
 
-            <!-- Current Page -->
-            <div class="pagination flex">
-                <button class="prev-page" aria-label="Previous Page">Previous</button>
-                <span class="current-page">1</span>
-                <button class="next-page" aria-label="Next Page">Next</button>
+                <div class="product-list flex">
+                    <!-- Fetch bags list from JSON -->
+                </div>
+
+                <!-- Current Page index -->
+                <div class="pagination flex">
+                    <button class="prev-page" aria-label="Previous Page">Previous</button>
+                    <span class="current-page">1</span>
+                    <button class="next-page" aria-label="Next Page">Next</button>
+                </div>
             </div>
 
         </section>
