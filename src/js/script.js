@@ -22,3 +22,25 @@ document.addEventListener("click", (event) => {
     }
 })
 
+
+// fetch bags list from JSON
+const bagsContainer = document.querySelector('.product-list');
+
+fetch('../../bags.json')
+    .then(response => response.json())
+    .then(data => {
+        data.forEach(bag => {
+            const bagElement = document.createElement('div');
+            bagElement.classList.add('product-item');
+            bagElement.innerHTML = `
+                <img src=${bag.image} alt="${bag.name}" width="200" height="200">
+                <div class="product-content flex">
+                    <h4>${bag.name}</h4>
+                    <p>£${bag.price}</p>
+                    <a href="#" class="featured-link">Add to Cart</a>
+                </div>
+            `;
+            bagsContainer.appendChild(bagElement);
+        });
+    })
+    .catch(error => console.error('Error fetching bags:', error));

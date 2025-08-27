@@ -5,7 +5,7 @@
         "description": "👜 Louis Vuitton Drouot crossbody M51290 \n📐 Dimensions: H22 x W20 x D10 (cm)\n📆 Date Code: VI0020",
         "condition": "Very Good",
         "price": 370,  
-        "image": "images/leather_tote_bag.jpg"
+        "image": "/bags-images/lv-drouot.jpeg"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "description": "👜 Louis Vuitton Noé Petit drawstring M42226 \n📐 Dimensions: H26 x W25 x D19 (cm) \n📆 Date Code: AR8910",
         "condition": "Good",
         "price": 390,  
-        "image": "images/leather_tote_bag.jpg"
+        "image": "/bags-images/lv-petitnoe.jpeg"
     },
     {
         "id": 3,
@@ -21,6 +21,6 @@
         "description": "👜 Louis Vuitton Saumur 35 messenger M42254 \n📐 Dimensions: H27 x W35 x D24 (cm) \n📆 Date Code: FH1920",
         "condition": "Good",
         "price": 390,  
-        "image": "images/leather_tote_bag.jpg"
+        "image": "/bags-images/lv-saumur35.jpeg"
     }
 ]
