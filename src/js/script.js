@@ -23,7 +23,7 @@ document.addEventListener("click", (event) => {
 })
 
 
-// fetch bags list from JSON
+// fetch bags from JSON
 const bagsContainer = document.querySelector('.product-list');
 
 fetch('../../bags.json')
@@ -46,3 +46,13 @@ fetch('../../bags.json')
         });
     })
     .catch(error => console.error('Error fetching bags:', error));
+
+// count tot products for sale (shop page)
+const bagCountElement = document.querySelector('.product-count');   
+fetch('../../bags.json')
+    .then(response => response.json())
+    .then(data => {
+        bagCountElement.textContent = data.length > 1 ? `${data.length} items` : `${data.length} item`;
+    })
+    .catch(error => console.error('Error fetching bags:', error));  
+

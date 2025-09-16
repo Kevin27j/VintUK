@@ -281,6 +281,13 @@ button {
         max-width: 600px;
     }
 
+    /* MAIN SECTION:SHOP */
+    .products-filter {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* MAIN SECTION:ABOUT */
     .about-image {
         max-width: 80%;
         margin: 0 auto;
